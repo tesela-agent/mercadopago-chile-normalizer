@@ -1,0 +1,19 @@
+{
+  "id": 1234567891,
+  "status": "approved",
+  "status_detail": "accredited",
+  "date_approved": "2026-08-18T11:00:00.000-04:00",
+  "currency_id": "CLP",
+  "transaction_amount": 2500,
+  "description": "Test artifact v1",
+  "payment_method_id": "visa",
+  "payment_type_id": "prepaid_card",
+  "payer": {
+    "email": "otro_comprador@testuser.com",
+    "identification": { "type": "RUT", "number": "22222222-2" }
+  },
+  "fee_details": [
+    { "type": "mercadopago_fee", "amount": 79.75, "fee_payer": "collector" }
+  ],
+  "transaction_details": { "net_received_amount": 2420.25 }
+}
