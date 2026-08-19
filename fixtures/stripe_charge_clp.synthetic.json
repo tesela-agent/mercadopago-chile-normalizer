@@ -1,0 +1,14 @@
+{
+  "id": "ch_3ZERO_DECIMAL",
+  "object": "charge",
+  "amount": 1000,
+  "amount_refunded": 0,
+  "currency": "clp",
+  "created": 1787103200,
+  "paid": true,
+  "refunded": false,
+  "status": "succeeded",
+  "description": "El caso que reconcile.py:58 rompe hoy: 1000 CLP se libra como 10",
+  "receipt_email": "buyer.cl@example.com",
+  "billing_details": { "name": "Un Comprador", "address": { "country": "CL" } }
+}
