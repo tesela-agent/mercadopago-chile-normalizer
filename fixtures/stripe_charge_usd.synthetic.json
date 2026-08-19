@@ -1,0 +1,17 @@
+{
+  "id": "ch_3ABC123",
+  "object": "charge",
+  "amount": 1000,
+  "amount_refunded": 0,
+  "currency": "usd",
+  "created": 1787103120,
+  "paid": true,
+  "refunded": false,
+  "status": "succeeded",
+  "description": "Test artifact v1",
+  "receipt_email": "buyer@example.com",
+  "billing_details": {
+    "name": "A Buyer",
+    "address": { "country": "DE" }
+  }
+}
